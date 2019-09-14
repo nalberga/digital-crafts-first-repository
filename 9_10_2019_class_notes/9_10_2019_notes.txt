@@ -1,5 +1,12 @@
-GUI - Graphical User Interface
+xGUI - Graphical User Interface
 LAMP - Linux Apache Mysql PHP
 MEAN - MongoDB Express Angular Node
 STACK - All the technology and programming languages that make up a solution
-
+git status #tells us which files to push up
+git add -A # adds all the files to be saved
+git commit -m "description of what changes"  # describes how the files were changed
+git push original master #saves the file to git
+git checkout -b (branch_name)  #creates a new branch 
+git branch # list all the branches and tells us which branch we are currently on
+git checkout (branc_name)  #switch between branches
+git pull origin (branch_name)  # pull the latest changes from git
