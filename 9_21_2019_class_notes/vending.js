@@ -114,5 +114,5 @@ console.log ( "No item was selected" );
 ​
 ​
 displaySnacks ( snacks );
-selectedItem ( 20.0, "Popcorn" );
+selectedItem ( 20, "Popcorn" );
 

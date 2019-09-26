@@ -22,3 +22,9 @@ for(var i=0; i<20; i++) {
 
       }
       console.log(coordinate);
+
+
+      if (snacks[i].name != itemChoosen)  {
+        console.log('Item was not found ' + ' and your refund is ' + moneyInserted);
+
+    }  
