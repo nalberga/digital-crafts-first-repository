@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+    </head>
+    <body>
+        <div id="buttonContainer">
+            <button onclick="countdown()">Click Me 1</button>
+        </div>
+        
+    </body>
+    <script type="text/javascript">
+
+        function countdown() {
+            setTimeout(function(){ 
+                alert("Hello Digital Crafts"); 
+            }, 1000);
+        }
+
+        var buttonContainerElement = document.getElementById("buttonContainer");
+       
+        
+        var button = document.createElement("button");
+        
+        button.innerHTML = "Click Me 2";
+        button.onclick = countdown;
+        buttonContainerElement.append(button);
+
+    </script>
+</html>

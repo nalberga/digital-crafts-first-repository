@@ -1,7 +1,12 @@
-h1 {
-    color: navy;
+#myHeader {
+background-color: lightblue;
+color: black;
+padding: 40px;
+text-align: center;
+
 
 }
+
 
 body {
 
