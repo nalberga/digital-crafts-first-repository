@@ -1,0 +1,23 @@
+{
+  "name": "npmexercises",
+  "version": "1.0.0",
+  "description": "npm project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nic",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cat-facts": "^1.0.2",
+    "download-file": "^0.1.5",
+    "lodash": "^4.17.15",
+    "nodemailer": "^6.3.1",
+    "pdfkit": "^0.10.0",
+    "wallpaper": "^4.4.1"
+  },
+  "devDependencies": {
+    "prettier": "1.19.1"
+  }
+}
